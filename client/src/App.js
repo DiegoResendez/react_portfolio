@@ -1,19 +1,33 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
+import Portfolio from "./components/pages/portfolio";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Contact from "./components/pages/contact";
+import Resume from "./components/pages/resume";
+import AboutMe from "./components/pages/aboutMe";
+
+
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+        <Header/>
+        <div className="reactPages" >
+        <AboutMe/>
+
+        <Portfolio/>
+
+        <Resume/>
+
+        <Contact/>
+
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Footer/>
       </div>
     );
   }
