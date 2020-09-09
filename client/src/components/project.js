@@ -15,7 +15,7 @@ class Project extends React.Component{
                     <div className="card" >
                     <img src={ this.props.img } alt="Placeholder" class="img-thumbnail"></img>
                     <h1>{ this.props.title }</h1>
-                        <p className="card-text"> {this.props.description} </p>
+                        <p className="card-text"> </p>
                     <a href={ this.props.link } className="btn btn-secondary outline-danger w-100"> { this.props.title } </a>
                 <p> {this.props.description} </p>
                 <a src={ this.props.link }></a>

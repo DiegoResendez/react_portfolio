@@ -9,9 +9,11 @@ class Resume extends React.Component{
 
     render() {
         return (
-            <div className="resume">
+            <div className="Resume">
                 <h1>Resume</h1>
-              
+                <div className="col-md-9 resumeText" id="resumeText">
+
+                </div>
             </div>
         )
       }

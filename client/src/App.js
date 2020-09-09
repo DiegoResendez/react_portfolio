@@ -18,6 +18,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         <div className="reactPages" >
+{/* Need to make these pages into routes */}
         <AboutMe/>
 
         <Portfolio/>

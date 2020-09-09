@@ -19,3 +19,10 @@ h1, h4, .nav-link, .form-group {
 .nav {
     float: right;
 }
+.contactPage {
+    display: inline;
+}
+
+.projectCards{
+    display: contents;
+}

@@ -1,3 +1,17 @@
-.contactPage{
+.contactPage {
+    display: inline;
+}
+
+.projectCards{
+    display: contents;
+}
+
+.aboutMe{
+    display: center;
+    color: rgb(233, 233, 233);
+}
+
+.aboutMeText,
+.resumeText{
     display: inline;
 }
