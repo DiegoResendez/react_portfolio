@@ -19,6 +19,7 @@ class Header extends React.Component{
 <nav class="navbar navbar-expand-lg p-0">
     <div class="container">
       <div class="col-md-4 col-sm-12">
+        <h1 className="myName">Diego Resendez</h1>
       </div>
       <div class="col-md col-sm-12"></div>
       <div class="col-md-5 col-sm-12 text-center" id="navbarSupportedContent">

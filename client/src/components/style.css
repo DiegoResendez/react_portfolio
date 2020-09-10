@@ -12,8 +12,11 @@ body{
     float: right;
 }
 
-h1, h4, .nav-link, .form-group {
+h1,  .nav-link  {
     color: darkred;
+}
+h4, .form-group {
+    color: rgb(255, 255, 255);
 }
 
 .nav {

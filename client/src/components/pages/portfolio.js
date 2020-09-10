@@ -54,8 +54,9 @@ class Portfolio extends React.Component{
     render(){
         return(
         <div className="PortfolioCards">
-        <h1>Portfolio </h1>
+        <h1 className="pageHeader">Portfolio </h1>
         <div className="projectCards">
+          <h4></h4>
         {projects.map(project => {
           console.log(project)
         return (<Project  title={project.title} description={project.description} 
