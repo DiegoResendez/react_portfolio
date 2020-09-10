@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css"
+import { Link } from "react-router-dom";
 
 class Project extends React.Component{
     constructor(props){
@@ -16,9 +17,8 @@ class Project extends React.Component{
                     <img src={ this.props.img } alt="Placeholder" class="img-thumbnail"></img>
                     <h1>{ this.props.title }</h1>
                         <p className="card-text"> </p>
-                    <a href={ this.props.link } className="btn btn-secondary outline-danger w-100"> { this.props.title } </a>
+                    <Link href={ this.props.href } className="btn btn-secondary outline-dark w-100"> { this.props.title } </Link>
                 <p> {this.props.description} </p>
-                <a src={ this.props.link }></a>
                 </div>
                 </div>
                 </div>

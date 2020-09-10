@@ -1,6 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from "react";
-// import logo from "./logo.svg";
+import { Route } from 'react-router-dom';
 import "./App.css";
 
 
@@ -21,6 +21,12 @@ class App extends Component {
         <Header/>
         <div className="reactPages" >
 
+      {/* <Route exact path="./components/pages/Portfolio" component={Portfolio} /> */}
+
+        {/* <AboutMe/> */}
+        {/* <Portfolio/>
+        <Contact/>
+        <Resume/> */}
         </div>
         <Footer/>
       </div>

@@ -1,8 +1,5 @@
 import React from "react"
 import "./style.css"
-// import { Nav } from "bootstrap"
-
-
 
 class Footer extends React.Component {
     constructor(props) {
@@ -20,11 +17,11 @@ class Footer extends React.Component {
                     <div class="col-md-5 col-sm-12 text-center" id="navbarSupportedContent">
                         <ul class="nav">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Github Link</a>
+                                <a class="nav-link active" href="https://github.com/DiegoResendez">Github Link</a>
                             </li>
                             <li class="nav-item">|</li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">LinkedIn</a>
+                                <a class="nav-link" href="https://www.linkedin.com/in/diegoresendez/">LinkedIn</a>
                             </li>
                         </ul>
                     </div>
