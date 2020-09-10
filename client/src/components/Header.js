@@ -1,5 +1,17 @@
 import React from "react"
 import "./style.css"
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import AboutMe from "./pages/AboutMe";
+import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
+import Contact from "./pages/ContactMe";
+
+
 // import { Nav } from "bootstrap"
 
 
@@ -14,6 +26,7 @@ class Header extends React.Component{
 
     render() {
         return (
+          <Router>
             <div className="headerLinks" >
                 {/* <h1> This is the Header </h1> */}
 <nav class="navbar navbar-expand-lg p-0">
@@ -25,49 +38,45 @@ class Header extends React.Component{
       <div class="col-md-5 col-sm-12 text-center" id="navbarSupportedContent">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link active" href="#">About</a>
-            
+            <Link class="nav-link active" to="/aboutMe">About Me</Link>
           </li>
           <li class="nav-item">|</li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <Link class="nav-link" to="/portfolio">Portfolio</Link>
           </li>
           <li class="nav-item">|</li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <Link class="nav-link" to="/resume">Resume</Link>
           </li>
           <li class="nav-item">|</li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
+            <Link class="nav-link" to="/contactMe">Contact</Link>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+{/* A <Switch> looks through its children <Route>s and
+renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/aboutMe">
+            <AboutMe/>
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio/>
+          </Route>
+          <Route path="/resume">
+            <Resume/>
+          </Route>
+          <Route path="/contactMe">
+            <Contact/>
+          </Route>
+        </Switch>
 
-            </div>
-        )
-    }
-}
+
+</div>
+</Router>
+)};
+};
+
 export default Header;
-
-
-//     <h1>{ this.props.title }</h1>
-//     <p> {this.props.description} </p>
-// <a src={ this.props.link }></a>
-
-
-//             <Nav variant="pills" defaultActiveKey="/home">
-//   <Nav.Item>
-//     <Nav.Link href="/home">About Me</Nav.Link>
-//   </Nav.Item>
-//   <Nav.Item>
-//     <Nav.Link eventKey="link-1">Portfolio</Nav.Link>
-//   </Nav.Item>
-//   <Nav.Item>
-//     <Nav.Link eventKey="/resume">Resume</Nav.Link>
-//   </Nav.Item>
-//   <Nav.Item>
-//     <Nav.Link eventKey="contact">Contact</Nav.Link>
-//   </Nav.Item>
-// </Nav>
