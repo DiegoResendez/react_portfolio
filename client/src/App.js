@@ -23,7 +23,7 @@ class App extends Component {
 
         <Portfolio/>
 
-        <Resume/>
+        {/* <Resume/> */}
 
         <Contact/>
 

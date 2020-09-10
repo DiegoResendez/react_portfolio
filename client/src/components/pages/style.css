@@ -3,7 +3,7 @@
 }
 
 .projectCards{
-    display: contents;
+    display: grid;
 }
 
 .aboutMe{

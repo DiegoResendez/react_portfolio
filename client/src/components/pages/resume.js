@@ -12,7 +12,8 @@ class Resume extends React.Component{
             <div className="Resume">
                 <h1>Resume</h1>
                 <div className="col-md-9 resumeText" id="resumeText">
-
+                    <h3>Contact Information</h3>
+                    <h5>Work Experience</h5>
                 </div>
             </div>
         )

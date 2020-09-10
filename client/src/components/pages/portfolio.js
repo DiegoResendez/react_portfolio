@@ -1,8 +1,5 @@
 import React from "react";
-// import ReactDOM from 'react-dom'
-// import portfolioBackground from '../images/React_Portfolio_BG_02.jpg'
 import Project from "../project";
-import backgroundImage from '../images/Backgrounds/React_Portfolio_BG_02.jpg'
 
 const projects = [{ 
     title: "Work Day Scheduler",
@@ -56,14 +53,10 @@ class Portfolio extends React.Component{
         <div className="PortfolioCards">
         <h1 className="pageHeader">Portfolio </h1>
         <div className="projectCards">
-          <h4></h4>
         {projects.map(project => {
-          console.log(project)
-        return (<Project  title={project.title} description={project.description} 
-          src={project.link} href={project.href} img={project.img} />)
-        })} 
-        </div>
-        <div  styles={{ backgroundImage:`url(${backgroundImage})` }}>
+          return (<Project  title={project.title} description={project.description} 
+            src={project.link} href={project.href} img={project.img} />)
+          })} 
         </div>
         </div>
         )
