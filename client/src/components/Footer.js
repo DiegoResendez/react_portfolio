@@ -12,7 +12,6 @@ class Footer extends React.Component {
     render() {
         return (
             <div className="footerLinks" >
-                {/* <h1> This is the Header </h1> */}
                 <div class="container">
                         <ul class="footer">
                             <a class="footer-link active" href="https://github.com/DiegoResendez">Github</a>
@@ -26,15 +25,3 @@ class Footer extends React.Component {
     }
 }
 export default Footer;
-
-
-
-
-        //   <li class="nav-item">|</li>
-        //   <li class="nav-item">
-        //     <a class="nav-link" href="#">Contact</a>
-        //   </li>
-        //   <li class="nav-item">|</li>
-        //   <li class="nav-item">
-        //     <a class="nav-link" href="#">Resume</a>
-        //   </li>

@@ -11,11 +11,6 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/ContactMe";
 
-
-// import { Nav } from "bootstrap"
-
-
-
 class Header extends React.Component{
     constructor(props){
         super(props)
@@ -23,12 +18,10 @@ class Header extends React.Component{
         }
     }
 
-
     render() {
         return (
           <Router>
             <div className="headerLinks" >
-                {/* <h1> This is the Header </h1> */}
 <nav class="navbar navbar-expand-lg p-0">
     <div class="container">
       <div class="col-md-4 col-sm-12">

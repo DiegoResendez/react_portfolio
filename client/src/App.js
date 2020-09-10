@@ -21,12 +21,7 @@ class App extends Component {
         <Header/>
         <div className="reactPages" >
 
-      {/* <Route exact path="./components/pages/Portfolio" component={Portfolio} /> */}
 
-        {/* <AboutMe/> */}
-        {/* <Portfolio/>
-        <Contact/>
-        <Resume/> */}
         </div>
         <Footer/>
       </div>
