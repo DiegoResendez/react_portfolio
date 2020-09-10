@@ -12,7 +12,7 @@ body{
     float: right;
 }
 
-h1,  .nav-link  {
+h1,  .nav-link, .footer-link  {
     color: darkred;
 }
 h4, .form-group {
@@ -22,6 +22,11 @@ h4, .form-group {
 .nav {
     float: right;
 }
+.footer, .footer-link{
+    display: flex;
+    float: left;
+}
+
 .contactPage {
     display: inline;
 }

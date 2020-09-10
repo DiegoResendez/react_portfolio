@@ -14,17 +14,11 @@ class Footer extends React.Component {
             <div className="footerLinks" >
                 {/* <h1> This is the Header </h1> */}
                 <div class="container">
-                    <div class="col-md-5 col-sm-12 text-center" id="navbarSupportedContent">
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="https://github.com/DiegoResendez">Github Link</a>
-                            </li>
-                            <li class="nav-item">|</li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.linkedin.com/in/diegoresendez/">LinkedIn</a>
-                            </li>
+                        <ul class="footer">
+                            <a class="footer-link active" href="https://github.com/DiegoResendez">Github</a>
+                            <li class="footer-item">|</li>
+                            <a class="footer-link" href="https://www.linkedin.com/in/diegoresendez/">LinkedIn</a>
                         </ul>
-                    </div>
                 </div>
 
             </div>
