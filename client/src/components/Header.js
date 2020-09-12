@@ -52,6 +52,9 @@ class Header extends React.Component{
 {/* A <Switch> looks through its children <Route>s and
 renders the first one that matches the current URL. */}
         <Switch>
+          <Route exact path="/">
+            <AboutMe/>
+          </Route>
           <Route path="/aboutMe">
             <AboutMe/>
           </Route>
