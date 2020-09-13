@@ -1,7 +1,14 @@
 import React from "react";
 import Project from "../project";
 
-const projects = [{ 
+const projects = [
+  {
+    title: "Weather Dashboad",
+    description: "Weather Report Application with current temperature, humidity, wind speed and UV index ",
+    href: "https://diegoresendez.github.io/Weather_Dashboard/",
+    img: "https://via.placeholder.com/150"
+  },
+  { 
     title: "Work Day Scheduler",
     description: "Scheduling Application to help the user keep add and delete tasks for the work day",
     href: "https://github.com/DiegoResendez/Work_Day_Scheduler",
@@ -14,15 +21,9 @@ const projects = [{
     img: "https://via.placeholder.com/150"
   },
   {
-    title: "Weather Dashboad",
-    description: "Weather Report Application with current temperature, humidity, wind speed and UV index ",
-    href: "https://diegoresendez.github.io/Weather_Dashboard/",
-    img: "https://via.placeholder.com/150"
-  },
-  {
-    title: "Camping Checklist",
-    description: "Checklist Application for a user to create a list of camping necessities.",
-    href: "https://github.com/DiegoResendez/Bootcamp_Project_2",
+    title: "The Golf Club",
+    description: "Social Media application to connnect local golfers to complete a group.  Users can find games hosted by other users are various local golf coarses",
+    href: "https://uwbc-golfclub.herokuapp.com/",
     img: "https://via.placeholder.com/150"
   },
   {
@@ -32,9 +33,9 @@ const projects = [{
     img: "https://via.placeholder.com/150"
   },
   {
-    title: "MacGuyver Drinking App",
-    description: "Drink list application for those who are looking to make a drink from their own household items.",
-    href: "https://diegoresendez.github.io/MacGuyver_Drinking_App/",
+    title: "Note Taker",
+    description: "Note Taker application to allow user to create, save, edit and delete multiple notes as reminders or lists.",
+    href: "https://fast-citadel-97394.herokuapp.com/",
     img: "https://via.placeholder.com/150"
   },
   ]
