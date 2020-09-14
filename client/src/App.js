@@ -1,6 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from "react";
-import { Route } from 'react-router-dom';
+// import { Route } from 'react-router-dom';
 import "./App.css";
 
 
@@ -21,10 +21,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         <div className="reactPages" >
-<Contact/>
-<Portfolio/>
-<Resume/>
-<AboutMe/>
+
         </div>
         <Footer/>
       </div>
