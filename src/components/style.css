@@ -4,6 +4,7 @@ body{
     padding: 10px;
 }
 
+
 .container, .btn-primary { 
     /* background-color: #f02121; */
     margin: 0px;
@@ -47,4 +48,8 @@ h4, h3, h5, h2, h6, .form-group {
 
 .card {
     display: grid;
+}
+
+.contactPage {
+    
 }
