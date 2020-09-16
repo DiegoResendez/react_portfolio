@@ -1,0 +1,18 @@
+
+body {
+  background-color: green;
+  color: white;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+
+
+.columnOne{
+  float: left;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
