@@ -1,5 +1,10 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    padding: 10px;
+}
 .contactPage {
-    display: inline;
+    display: list-item;
 }
 
 .projectCards{
@@ -14,4 +19,5 @@
 .aboutMeText,
 .resumeText{
     display: inline;
+    color: rgb(18, 19, 19);
 }

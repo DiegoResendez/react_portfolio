@@ -23,7 +23,9 @@ class App extends Component {
         {/* <AboutMe/> */}
 
         </div>
+        <div className="AppFooter">
         <Footer/>
+        </div>
       </div>
     );
   }

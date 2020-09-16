@@ -4,7 +4,7 @@ body{
   padding: 10px;
 }
 
-.App {
+.App, .AppFooter {
   text-align: center;
 }
 

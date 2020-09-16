@@ -5,25 +5,24 @@ body{
 }
 
 .container, .btn-primary { 
-    background-color: black;
+    /* background-color: #f02121; */
     margin: 0px;
     padding: 5px;
     float: right;
 }
 
 h1,  .nav-link, .footer-link  {
-    color: darkred;
+    color: rgb(15, 4, 4);
 }
 h4, .form-group {
-    color: rgb(255, 255, 255);
+    color: rgb(34, 34, 34);
 }
 
 .nav {
     float: right;
 }
-.footer, .footer-link{
-    display: flex;
-    float: left;
+.footer {
+    display: contents;
 }
 
 .contactPage {
