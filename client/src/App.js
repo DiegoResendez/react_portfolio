@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from "react";
 import { Route } from 'react-router-dom';
-import "./App.css";
+import "./";
 
 
 import Header from "./components/Header";
