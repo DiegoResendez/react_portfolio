@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(148, 148, 148);
     margin: auto;
     padding: 10px;
 }
@@ -12,10 +12,10 @@ body{
 }
 
 h1,  .nav-link, .footer-link  {
-    color: rgb(15, 4, 4);
+    color: rgb(255, 255, 255);
 }
-h4, .form-group {
-    color: rgb(34, 34, 34);
+h4, h3, h5, .form-group {
+    color: rgb(128, 128, 128);
 }
 
 .nav {
@@ -23,6 +23,10 @@ h4, .form-group {
 }
 .footer {
     display: contents;
+    /* position: absolute; */
+    top: 50%;
+    width: 100%;
+    text-align: center;
 }
 
 .contactPage {
