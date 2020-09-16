@@ -8,14 +8,22 @@ body{
     /* background-color: #f02121; */
     margin: 0px;
     padding: 5px;
-    float: right;
+    float: left;
+    display: inline-block;
 }
 
 h1,  .nav-link, .footer-link  {
-    color: rgb(255, 255, 255);
+    color: rgb(14, 13, 13);
+    /* color: rgb(41, 41, 41); */
 }
-h4, h3, h5, .form-group {
-    color: rgb(128, 128, 128);
+h4, h3, h5, h2, h6, .form-group {
+    color: rgb(14, 13, 13);
+    text-align: left;
+}
+
+.Amazon4, .Amazon3, 
+.Amazon2, .Amazon{
+    text-align: left;
 }
 
 .nav {

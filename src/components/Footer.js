@@ -13,11 +13,13 @@ class Footer extends React.Component {
         return (
             <div className="footerLinks" >
                 <div class="container">
-                        <ul class="footer">
+                        <div class="footer">
                             <a class="footer-link active" href="https://github.com/DiegoResendez">Github</a>
-                            <li class="footer-item">|</li>
+                            <br></br>
+                            |
+                            <br></br>
                             <a class="footer-link" href="https://www.linkedin.com/in/diegoresendez/">LinkedIn</a>
-                        </ul>
+                        </div>
                 </div>
 
             </div>
