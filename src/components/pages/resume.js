@@ -42,7 +42,7 @@ class Resume extends React.Component{
 Developed process improvement to ensure Seller trust resulting in creation of Team ARES, a 16-20 team queue with productivity goals, SOP and QA.
                 </h5>
                 <h4 className="Amazon3">Associate Advisor - Final Review/Quality Auditing - Amazon.com</h4>
-                <h5>February 2020 - Present</h5>
+                <h5>November 2016 - February 2019</h5>
                 <h5>
                 Responsibilities include: Managed internal trouble ticket queues supporting Seller Support partner sites; assisting with deep dive investigations and reimbursement re-evaluation requests.  Established quality standards and guidelines with consistent closed loop feedback mechanisms.
 Assisted FBA management in policy implementation and training of Department SOP.  Investigated associate appeals to provide final resolution on reimbursement accuracy.  Assisted in launch of International ILAC partner sites: including development of partner site QA teams.  
