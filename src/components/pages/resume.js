@@ -41,7 +41,7 @@ class Resume extends React.Component{
                 Accomplishments include: Creation of Escalation pathway leading to queue creation and Worldwide SOP Update.  Coordinating with FBA Leadership to develop a queue to handle ILAC case escalations.  Led team of 14 to eliminate 2400 case backlog one-month prior to expected goal.  Outlined and composed Team ARES training materials and SOP.  Coordinated with Training and FBA Leadership to revise, format and publish SOP and training materials.  Pushed Training materials and SOP to live and continue to monitor and update SOP as needed.  
 Developed process improvement to ensure Seller trust resulting in creation of Team ARES, a 16-20 team queue with productivity goals, SOP and QA.
                 </h5>
-                <h4 className="Amazon3">Associate Advisor - Final Review/Quality Auditing - November 2016-February 2019</h4>
+                <h4 className="Amazon3">Associate Advisor - Final Review/Quality Auditing - Amazon.com</h4>
                 <h5>February 2020 - Present</h5>
                 <h5>
                 Responsibilities include: Managed internal trouble ticket queues supporting Seller Support partner sites; assisting with deep dive investigations and reimbursement re-evaluation requests.  Established quality standards and guidelines with consistent closed loop feedback mechanisms.
