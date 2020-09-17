@@ -44,12 +44,12 @@ Developed process improvement to ensure Seller trust resulting in creation of Te
                 <h4 className="Amazon3">Associate Advisor - Final Review/Quality Auditing - Amazon.com</h4>
                 <h5>November 2016 - February 2019</h5>
                 <h5>
-                Responsibilities include: Managed internal trouble ticket queues supporting Seller Support partner sites; assisting with deep dive investigations and reimbursement re-evaluation requests.  Established quality standards and guidelines with consistent closed loop feedback mechanisms.
+                Responsibilities included: Managed internal trouble ticket queues supporting Seller Support partner sites; assisting with deep dive investigations and reimbursement re-evaluation requests.  Established quality standards and guidelines with consistent closed loop feedback mechanisms.
 Assisted FBA management in policy implementation and training of Department SOP.  Investigated associate appeals to provide final resolution on reimbursement accuracy.  Assisted in launch of International ILAC partner sites: including development of partner site QA teams.  
 Facilitated weekly calibration calls with Amazon international partner sites.  Provided real time support, assistance and feedback to Credit Operations Associates.  
 Coach & mentor Associates to ensure they meet the required performance standards for quality & productivity.  Identify research and push for resolution on technical issues affecting internal and external customers. </h5>
                 <h5>
-                Accomplishments include: Creation of QA on-site and virtual training materials.  Successful launch of 3 International QA sites.  On-Site training: Cebu, Philippines; Jaipur, India.  
+                Accomplishments included: Creation of QA on-site and virtual training materials.  Successful launch of 3 International QA sites.  On-Site training: Cebu, Philippines; Jaipur, India.  
 Virtual training: Beijing (Peking), China.  Assisted training team in successful launch of 2 International ILAC sites.                </h5>
                 <h4 className="Amazon4">Special Skills</h4>
                 <h5>Premiere Pro/After Effects/Photoshop</h5>
